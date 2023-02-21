@@ -21,6 +21,10 @@ html {
   overflow-x: hidden;
 }
 
+section {
+  padding: 2rem 9%;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -75,6 +79,38 @@ header .fa-bars {
   padding: 0.5rem 1.5rem;
   cursor: pointer;
   display: none;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background: url(../images/home-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home .content {
+  max-width: 50rem;
+}
+
+.home .content h3 {
+  font-size: 6rem;
+  color: #333;
+}
+
+.home .content span {
+  font-size: 3.5rem;
+  color: var(--pink);
+  padding: 1rem 0;
+  line-height: 1.5;
+}
+
+.home .content p {
+  font-size: 1.5rem;
+  color: #999;
+  padding: 1rem 0;
+  line-height: 1.5;
 }
 
 /* media queries */
